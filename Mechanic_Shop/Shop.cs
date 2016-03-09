@@ -14,7 +14,7 @@ namespace Mechanic_Shop
 
         public void ChangeOil(T Vehicles)
         {
-            bool IsOilDirty = false;
+            Vehicles.IsOilDirty = true;
         }
 
         public void FillUp(T Vehicles)
