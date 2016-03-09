@@ -49,6 +49,7 @@
     <Compile Include="Sedan.cs" />
     <Compile Include="Shop.cs" />
     <Compile Include="Truck.cs" />
+    <Compile Include="vehicles.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

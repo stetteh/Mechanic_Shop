@@ -10,7 +10,10 @@ namespace Mechanic_Shop
     {
         static void Main(string[] args)
         {
-            var shop = new Shop();
+            var Vehicle_RaceCarShop = new Shop<RaceCar>();
+            var Vehicle_SedanCarShop = new Shop<Sedan>();
+            var Vehicle_TruckShop = new Shop<Truck>();
+
         }
     }
 }

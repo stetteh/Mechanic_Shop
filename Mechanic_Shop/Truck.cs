@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Mechanic_Shop
 {
-    class Truck
+    class Truck : Vehicles
     {
+       
     }
 }

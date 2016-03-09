@@ -6,21 +6,30 @@ using System.Threading.Tasks;
 
 namespace Mechanic_Shop
 {
-    class Shop
+    class Shop<T> where T : Vehicles
     {
-        List<string> myShop = new List<string>();
-
-        public void ChangeOil()
+        public Shop()
         {
-            Console.WriteLine("Changing oil");
-            return;
         }
 
-        public void FillUp()
+        public void ChangeOil(T Vehicle)
         {
-            Console.WriteLine("fill up");
-            return;
+            bool IsOilDirty = false;
         }
 
+        public void FillUp(T )
+        {
+
+        }
+
+        public void ChangeTire()
+        {
+
+
+        }
+    }
+
+    class Vehicles
+    {
     }
 }

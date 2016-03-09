@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Mechanic_Shop
 {
-    class Sedan
+
+
+    public class Sedan : Vehicles
     {
+        
     }
+
+    
 }
