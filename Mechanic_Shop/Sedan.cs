@@ -8,10 +8,16 @@ namespace Mechanic_Shop
 {
 
 
-    public class Sedan : Vehicles
+    public class Sedan : Vehicles, IchangeOil
     {
-        
+        public void ChangeOil(bool IsOilDirty)
+        {
+            if(IsOilDirty)
+            {
+                Console.WriteLine("Sedan changing oil");
+            }
+        }
     }
 
-    
+
 }

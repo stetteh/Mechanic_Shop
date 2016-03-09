@@ -12,12 +12,12 @@ namespace Mechanic_Shop
         {
         }
 
-        public void ChangeOil(T Vehicle)
+        public void ChangeOil(T Vehicles)
         {
             bool IsOilDirty = false;
         }
 
-        public void FillUp(T )
+        public void FillUp(T Vehicles)
         {
 
         }
@@ -29,7 +29,5 @@ namespace Mechanic_Shop
         }
     }
 
-    class Vehicles
-    {
-    }
+    
 }

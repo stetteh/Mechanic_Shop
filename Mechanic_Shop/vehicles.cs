@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mechanic_Shop
 {
-    public abstract class Vehicles
+    public abstract class Vehicles, IchangeOil
     {
         public bool IsGasTankEmpty { get; set; }
         //public bool IsOilDirty = false;
